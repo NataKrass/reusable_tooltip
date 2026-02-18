@@ -23,7 +23,12 @@ This is a simple API that works with any HTML element.
 - ARIA attributes and focus management are included for accessibility
 - No external libraries or frameworks are used
 
+
 ## Files
 - `index.html` example markup and usage
 - `styles.scss` tooltip styles and arrow mixin. The SCSS file is the source of truth, the compiled CSS is not included.
 - `app.js` tooltip logic
+
+## Demo
+
+![tooltip](https://github.com/user-attachments/assets/8e22808b-eb61-4819-95f5-7cc436644a61)
