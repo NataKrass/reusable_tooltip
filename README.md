@@ -3,6 +3,12 @@
 This project implements a small, reusable tooltip component written in vanilla JavaScript.
 This is a simple API that works with any HTML element.
 
+## Getting Started
+Since the project uses SCSS, compile it using:
+`sass styles.scss styles.css`
+
+Then simply open `index.html` in the browser.
+
 ## Features
 - Any element with the `data-tooltip` attribute shows a tooltip on hover or focus
 - Keyboard accessible, tooltips can be triggered by Tab and dismissed with Escape
