@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Tooltip Component</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="container">
+        <h1>Tooltip Demo</h1>
+        
+        <section class="grid">
+            <button data-tooltip="It's a top tooltip here">Hover me</button>
+            
+            <button data-tooltip="Tooltip right" data-placement="right">Right</button>
+            
+            <a href="#" data-tooltip="Links are also supported" data-placement="bottom">Link with tooltip</a>
+            
+            <button data-tooltip="Very long text that needs to wrap correctly within our tooltip so you can hide this with Escape. " data-placement="left">
+                Left (Long text)
+            </button>
+        </section>
+
+        <div class="edge-case">
+            <button data-tooltip="Check flexible position" data-placement="bottom">
+               At the edge
+            </button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
